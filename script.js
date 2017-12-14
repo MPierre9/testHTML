@@ -9,7 +9,7 @@ img.onload = function loaded() {
    onloadUpdate.innerHTML = onloadCount;
    if(onloadCount == 1) {
     document.body.style.backgroundImage = "url('https://wallscover.com/images/error-wallpaper-4.jpg')";
-    img.src = "http://tny.im/bmc";
+    img.src = "doggo.jpg";
     
    }
    else if(onloadCount == 2) {
@@ -19,7 +19,7 @@ img.onload = function loaded() {
    
 };
 
-img.src = "http://tny.im/bmc";
+img.src = "doggo.jpg";
 
 
 // Some where late in the code I set the URL to the same thing again
