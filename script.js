@@ -9,6 +9,7 @@ img.onload = function loaded() {
    onloadUpdate.innerHTML = onloadCount;
    if(onloadCount == 1) {
     document.body.style.backgroundImage = "url('https://wallscover.com/images/error-wallpaper-4.jpg')";
+    img.src = "http://tny.im/bmc";
     
    }
    else if(onloadCount == 2) {
@@ -22,10 +23,9 @@ img.src = "http://tny.im/bmc";
 
 
 // Some where late in the code I set the URL to the same thing again
-img.addEventListener("load", function () {
+//img.addEventListener("load", function () {
     
-    img.src = "http://tny.im/bmc";
+  //  img.src = "http://tny.im/bmc";
     
-    
-    });
+
 
