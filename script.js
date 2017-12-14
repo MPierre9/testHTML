@@ -22,5 +22,10 @@ img.src = "http://tny.im/bmc";
 
 
 // Some where late in the code I set the URL to the same thing again
-img.src = "http://tny.im/bmc";
+img.addEventListener("load", function () {
+    
+    img.src = "http://tny.im/bmc";
+    
+    
+    });
 
