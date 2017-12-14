@@ -8,12 +8,12 @@ img.onload = function loaded() {
    console.info(onloadCount);
    onloadUpdate.innerHTML = onloadCount;
    if(onloadCount == 1) {
-    document.body.style.backgroundImage = "url('https://wallscover.com/images/error-wallpaper-4.jpg')";
+    document.body.style.backgroundImage = "url('error.jpg')";
     img.src = "doggo.jpg";
     
    }
    else if(onloadCount == 2) {
-    document.body.style.backgroundImage = "url('http://hd.wallpaperswide.com/thumbs/happy_sun-t2.jpg')";
+    document.body.style.backgroundImage = "url('success.jpg')";
     
    }
    
